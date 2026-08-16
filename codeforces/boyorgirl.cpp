@@ -18,7 +18,7 @@ int main() {
     int n = s.size();
     for(int i = 1; i < n; i++){
         bool trung = false;
-        for(int j = 0; j < i-1; j++){
+        for(int j = 0; j < i; j++){
         if(s[j] == s[i]){
             trung = true;
         }
