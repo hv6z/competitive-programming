@@ -28,7 +28,7 @@ int main() {
         }
 }
     if(dem % 2 == 0){
-        cout << "CHAT WITH HER";
+        cout << "CHAT WITH HER!";
     }else if(dem % 2 != 0){
         cout << "IGNORE HIM!";
     }
