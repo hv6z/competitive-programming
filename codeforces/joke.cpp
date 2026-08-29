@@ -19,7 +19,7 @@ int main() {
     }for(int i = 0; i < t.size(); i++){
         int c =t[i] - 'A';
         kitu[c]--;
-    } 
+    }  
     for(int i = 0; i < 26; i++){
         if(kitu[i] != 0){
             cout << "NO";
